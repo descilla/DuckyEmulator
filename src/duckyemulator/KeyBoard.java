@@ -288,7 +288,7 @@ public class KeyBoard
                 robot.keyPress(KeyEvent.VK_COMMA);
                 break;
             case ".":
-                robot.keyPress(KeyEvent.VK_DECIMAL);
+                robot.keyPress(KeyEvent.VK_PERIOD);
                 break;
             case "*":
                 robot.keyPress(KeyEvent.VK_ASTERISK);
@@ -450,9 +450,9 @@ public class KeyBoard
             case ">":
 
                 robot.keyPress(KeyEvent.VK_SHIFT);
-                robot.keyPress(KeyEvent.VK_STOP);
+                robot.keyPress(KeyEvent.VK_PERIOD);
                 robot.keyRelease(KeyEvent.VK_SHIFT);
-                robot.keyRelease(KeyEvent.VK_STOP);
+                robot.keyRelease(KeyEvent.VK_PERIOD);
                 break;
 
             //test cases for lowercase letters first

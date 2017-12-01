@@ -32,7 +32,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
-import org.apache.commons.codec.Charsets;
 
 /**
  *
